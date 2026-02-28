@@ -18,6 +18,14 @@ for (int i = 0; i < n; i++)
 // Instrucción: El alumno debe encontrar el valor máximo del arreglo 'numeros'
 int maximo = numeros[0]; 
 
+for (int i = 1; i < n; i++)
+{
+    if (numeros[i] > max)
+    {
+        max = numeros[i];
+    }
+}
+
 // TODO: Implementar el algoritmo de búsqueda aquí
 
 
@@ -27,4 +35,3 @@ int maximo = numeros[0];
 Console.WriteLine(maximo);
 
 
-//comentario de prueba
