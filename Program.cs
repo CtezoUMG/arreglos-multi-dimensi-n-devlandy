@@ -20,7 +20,7 @@ int maximo = numeros[0];
 
 for (int i = 1; i < n; i++)
 {
-    if (numeros[i] > max)
+    if (numeros[i] > maximo)
     {
         max = numeros[i];
     }
