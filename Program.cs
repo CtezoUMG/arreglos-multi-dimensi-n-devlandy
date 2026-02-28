@@ -22,7 +22,7 @@ for (int i = 1; i < n; i++)
 {
     if (numeros[i] > maximo)
     {
-        max = numeros[i];
+        maximo = numeros[i];
     }
 }
 
